@@ -1,11 +1,10 @@
 [project]
-name = "ingestvar"
+name = "ingestion"
 version = "0.0.1"
 authors = [
   { name="Example Author", email="author@example.com" },
 ]
 description = "A small example package"
-requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -13,7 +12,5 @@ classifiers = [
 ]
 
 dependencies = [
-    "google-cloud-storage",
-    "pandas",
-    "kfp"
+    "google-cloud-storage"
 ]
